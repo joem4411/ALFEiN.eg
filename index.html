@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALFE!N - Your Fashion, Your Way</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo cropped.png" alt="ALFE!N Logo" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to ALFE!N</h1>
+            <p>Discover your next favorite outfit. Trendy, comfortable, and stylish clothes just for you.</p>
+            <a href="#shop" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="shop">
+        <h2>Shop Our Collection</h2>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="product one cropped.png" alt="Product 1">
+                <h3>ALFE!N <div></div> black Hoodie </h3>
+                <p>800EGP</p>
+                <button class="add-to-cart" onclick="addToCart('Red Hoodie', 39.99)">Add to Cart</button>
+            </div>
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>ALFE!N <div></div> Black Jeans</h3>
+                <p>1800EGP</p>
+                <button class="add-to-cart" onclick="addToCart('Black Jeans', 49.99)">Add to Cart</button>
+            </div>
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>ALFE!N <div></div> T-shirt</h3>
+                <p>1000EGP</p>
+                <button class="add-to-cart" onclick="addToCart('Blue T-shirt', 19.99)">Add to Cart</button>
+            </div>
+            <!-- Product 4 -->
+            <div class="product">
+                <img src="product4.jpg" alt="Product 4">
+                <h3> ALFE!N <div></div> White Sneakers</h3>
+                <p>1500EGP</p>
+                <button class="add-to-cart" onclick="addToCart('White Sneakers', 59.99)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About ALFE!N</h2>
+        <p1>At ALFE!N, we are passionate about bringing you stylish, comfortable, and affordable clothing for all occasions. We design clothes that make you feel confident and stylish every day.</p1>
+        <p2>Follow us on Instagram to see our latest collection: <a href="https://www.instagram.com/alfein.2000/" target="_blank">@alfein.2000</a></p2>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p3>&copy; 2024 ALFE!N. All Rights Reserved.</p3>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
